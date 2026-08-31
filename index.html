@@ -23,9 +23,9 @@
     >
     <style> 
             :root {
-            --principal: #c95f68;
+            --principal: #86333a;
             --principal-oscuro: #9f414a;
-            --fondo: #f8eeee;
+            --fondo: #f18989;
             --blanco: #ffffff;
             --texto: #222222;
             --texto-suave: #686868;
@@ -249,7 +249,7 @@
         }
 
         .skill {
-            background: #f5dfe1;
+            background: #e7828a;
 
             color: var(--principal-oscuro);
 
@@ -445,25 +445,57 @@
             font-size: 0.9rem;
         }
 
+        @keyframes aparecer {
 
-    body{
-            background-color: #d47c7c ;
-            font-family: Arial, sans-serif;}
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
 
-        h1 {
-            color: #000000 ;
-            text-align: center;
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
         }
 
-        p {
-            color: #000000 ;
-            text-align: center;
+        @keyframes flotar {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+
         }
-        
-        p {
-        font-family: verdana;
-        font-size: 20px;
+
+
+        @media (max-width: 768px) {
+
+            .hero {
+                min-height: 80vh;
+            }
+
+            .hero h1 {
+                letter-spacing: -1px;
+            }
+
+            .about-card,
+            .contact-card {
+                padding: 28px 22px;
+            }
+
+            .carousel img {
+                height: 220px;
+            }
+
         }
+
+
+
     </style>
     
 </head>
