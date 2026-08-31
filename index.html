@@ -202,10 +202,251 @@
             margin-top: 8px;
         }
 
+ .about-section {
+            padding: 100px 20px;
+        }
 
-    body
-    
-    {
+        .about-card {
+            max-width: 850px;
+
+            margin: auto;
+
+            background: var(--blanco);
+
+            padding: 40px;
+
+            border-radius: 20px;
+
+            box-shadow: var(--sombra);
+
+            border: 1px solid var(--borde);
+
+            transition: 0.35s ease;
+        }
+
+        .about-card:hover {
+            transform: translateY(-6px);
+        }
+
+        .about-card p {
+            color: var(--texto-suave);
+
+            font-size: 1.05rem;
+
+            line-height: 1.9;
+
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            gap: 12px;
+
+            margin-top: 30px;
+        }
+
+        .skill {
+            background: #f5dfe1;
+
+            color: var(--principal-oscuro);
+
+            padding: 8px 16px;
+
+            border-radius: 30px;
+
+            font-weight: 600;
+
+            transition: 0.3s ease;
+        }
+
+        .skill:hover {
+            transform: translateY(-4px) scale(1.03);
+            background: var(--principal);
+            color: white;
+        }
+
+
+          .projects-section {
+            padding: 100px 20px;
+
+            background: rgba(255, 255, 255, 0.45);
+        }
+
+        .project-card {
+            height: 100%;
+
+            border: none;
+
+            border-radius: 20px;
+
+            overflow: hidden;
+
+            box-shadow: var(--sombra);
+
+            transition:
+                transform 0.35s ease,
+                box-shadow 0.35s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+
+            box-shadow:
+                0 25px 50px rgba(80, 30, 35, 0.18);
+        }
+
+        .carousel img {
+            height: 280px;
+
+            object-fit: cover;
+        }
+
+        .project-card .card-body {
+            padding: 28px;
+        }
+
+        .project-card .card-title {
+            font-weight: 800;
+        }
+
+        .project-card .card-text {
+            color: var(--texto-suave);
+
+            line-height: 1.7;
+        }
+
+        .project-button {
+            background: var(--principal);
+
+            border: none;
+
+            padding: 10px 20px;
+
+            font-weight: 600;
+
+            transition: 0.3s ease;
+        }
+
+        .project-button:hover {
+            background: var(--principal-oscuro);
+
+            transform: translateY(-3px);
+        }
+
+        .github-links {
+            margin-top: 30px;
+
+            display: flex;
+            justify-content: center;
+
+            gap: 20px;
+
+            flex-wrap: wrap;
+        }
+
+        .github-links a {
+            color: var(--principal-oscuro);
+
+            font-weight: 600;
+
+            text-decoration: none;
+
+            transition: 0.3s ease;
+        }
+
+        .github-links a:hover {
+            color: var(--principal);
+
+            transform: translateY(-2px);
+        }
+
+         .contact-section {
+            padding: 100px 20px;
+        }
+
+        .contact-card {
+            max-width: 800px;
+
+            margin: auto;
+
+            background: var(--blanco);
+
+            border-radius: 20px;
+
+            padding: 45px;
+
+            text-align: center;
+
+            box-shadow: var(--sombra);
+        }
+
+        .contact-card p {
+            color: var(--texto-suave);
+
+            line-height: 1.8;
+        }
+
+        .contact-links {
+            display: flex;
+
+            justify-content: center;
+
+            gap: 15px;
+
+            flex-wrap: wrap;
+
+            margin-top: 30px;
+        }
+
+        .contact-link {
+            padding: 12px 20px;
+
+            border-radius: 10px;
+
+            border: 1px solid var(--borde);
+
+            color: var(--texto);
+
+            text-decoration: none;
+
+            font-weight: 600;
+
+            transition: 0.3s ease;
+        }
+
+        .contact-link:hover {
+            background: var(--principal);
+
+            color: white;
+
+            transform: translateY(-4px);
+        }
+
+
+        
+        footer {
+            background: #252525;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 30px 20px;
+        }
+
+        footer p {
+            margin: 0;
+
+            color: #cccccc;
+
+            font-size: 0.9rem;
+        }
+
+
+    body{
             background-color: #d47c7c ;
             font-family: Arial, sans-serif;}
 
@@ -279,16 +520,34 @@
         </div>
 
     </nav>
-
-
-    <div class="container-fluid">
-    <h1> Presentación </h1>
-    <a href="https://www.tiktok.com/@gerardoleal1706"> Link a la diversión! </a>
-    <p>Benjamín Cruz Ramírez Reyna <br> Nivel 61 en Pokemon Go <br> Padre de Juan Carlos </p>
-    
-    <h1>    Perfil de GitHub  </h1>
-        <a    href= "https://github.com/BenjaCRR"> <img src="Imagenes/imagen.jpg" alt="Chandler.com">  </a>
-        
+ <main>
+<section id="inicio" class="hero">
+        <div class="hero-content">
+            <img
+                src="imagenes/JC.jpg"
+                class="hero-icon" alt="Imagen de Benjamín">
+                <p class="text-uppercase fw-bold text-secondary mb-2">
+                    Portfolio personal </p>
+                <h1>
+                    Hola, soy
+                    <span>Benjamín</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Estudiante de cuarto año del I.I.L.A. Huergo.
+                    <br>
+                    Interesado en la programación y en proyectos!</p>
+                <div class="hero-buttons">
+                    <a
+                        href="https://github.com/BenjaCRR"
+                        target="_blank"
+                        class="btn btn-dark hero-button"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                        Mi GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
 
 <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
   <h4 id="scrollspyHeading1">Sobre mí</h4>
