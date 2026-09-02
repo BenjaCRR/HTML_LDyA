@@ -1,0 +1,38 @@
+26/08: Se comenzó con la creación del portafolio, realizando la estructura principal en HTML. Se 
+agregaron los primeros datos personales y se creó la página de inicio.
+ Se trabajó en la navegación de la página, agregando el desplazamiento mediante scroll 
+ para poder recorrer las diferentes secciones del sitio.
+ Se continuó desarrollando la estructura HTML y se organizaron los primeros contenidos 
+ que formarían parte del portafolio.
+
+27/08: Se continuó con el desarrollo del proyecto y se trabajó en el módulo 1, avanzando 
+con la organización de las distintas partes de la página.
+
+30/08: Se realizaron varios cambios en el diseño general del portafolio. Se comenzó a trabajar más en 
+la apariencia visual y en la forma en que se presentarían las diferentes secciones.
+Se agregó un efecto para la sección de inicio y se realizaron ajustes de color para mejorar la 
+apariencia de la página.
+Se trabajó en la descripción personal y en la presentación del inicio, buscando que el contenido 
+tuviera una apariencia más seria y ordenada.
+Se realizaron modificaciones en la barra de navegación para mejorar su diseño y facilitar la navegación 
+entre las secciones.
+Se incorporaron diferentes fuentes mediante Google Fonts para mejorar la estética y la presentación 
+del texto.
+Se realizaron distintas pruebas y modificaciones durante el desarrollo para ir ajustando el diseño del 
+portafolio.
+
+01/09: Se reorganizó el código del proyecto separando los archivos HTML y CSS, con el objetivo 
+de mantener una estructura más ordenada y fácil de modificar.
+
+02/09: Se realizaron diferentes ajustes y correcciones generales en el proyecto para solucionar 
+errores encontrados durante las pruebas.
+Se trabajó en la sección de contacto y se corrigió el funcionamiento del contacto mediante Gmail, 
+que anteriormente no funcionaba correctamente.
+Se agregaron nuevas imágenes al portafolio debido a que el contenido visual no era suficiente para 
+completar las diferentes secciones.
+Se incorporaron imágenes en blanco y negro para mantener una estética más uniforme dentro del diseño.
+Se realizaron los últimos arreglos y modificaciones para mejorar el funcionamiento y la presentación 
+general del portafolio.
+Finalmente, se revisaron los diferentes elementos del sitio y se continuó con los ajustes necesarios 
+para dejar el proyecto más completo y organizado.
+Finalizando con la escritura de la bitácora misma.
